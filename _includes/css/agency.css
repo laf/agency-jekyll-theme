@@ -326,6 +326,10 @@ header .intro-text .intro-heading {
     }
 }
 
+contact-text {
+    color: #fff;
+}
+
 section {
     padding: 100px 0;
 }

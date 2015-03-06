@@ -1,7 +1,11 @@
 <html>
 <head>
 <script type="text/javascript" language="JavaScript">
-    alert(location.href.toLowerCase());
+    if( -1 == location.href.
+           toLowerCase().
+           indexOf('/changelog.html') ) {
+       location.href = "http://docs.librenms.org/General/Changelog/";
+    }
 </script>
 </head>
 <body>
